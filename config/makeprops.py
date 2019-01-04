@@ -544,7 +544,7 @@ class JSPropertyHandler(PropertyHandler):
     def __init__(self, inputfile, c):
         PropertyHandler.__init__(self, inputfile, c)
         self.srcFile = None
-        self.validSections = ["Ice"]
+        self.validSections = ["Ice", "IceSSL"]
 
     def cleanup(self):
         if self.srcFile != None:
